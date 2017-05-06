@@ -2,9 +2,67 @@
 <html>
 <head>
   <title>Trip Planner</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheets.css"/>
 </head>
 <body>
-  {% block content %}
-  {% endblock %}
+  <div class="navbar collapse navbar-collapse navbar-inverse navbar-fixed-top" id="bs-example-navbar-collapse-9">
+    <ul class="nav navbar-nav">
+      <li><a href="http://www.pokemon.com/us/pokedex/pikachu"><img src="pikachu.gif" class="pika"/></a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+
+  <div class="bucket">
+    <div class="content col-sm-4">
+      <div class="attractions">
+        {% block content %}
+        {% endblock %}
+      </div>
+
+      <h2>Day</h2>
+      <div class="selections">
+
+        <div class="btn-group days" role="group" aria-label="...">
+          <button type="button" class="btn btn-default">Day 1</button>
+          <button type="button" class="btn btn-default">Day 2</button>
+          <button type="button" class="btn btn-default">Day 3</button>
+        </div>
+
+          <div class="menu-items">
+            <label>My Hotel</label>
+              <ul>
+                <li></li>
+              </ul>
+          </div>
+
+          <div class="menu-items">
+            <label>My Restaurants</label>
+              <ul>
+                <li></li>
+              </ul>
+          </div>
+
+          <div class="menu-items">
+            <label>My Activities</label>
+              <ul>
+                <li></li>
+              </ul>
+          </div>
+
+      </div>
+  </div>
+
+  </div>
+
+
+
+
+
+
 </body>
+  <script type="text/javascript" src="bootstrap/jquery/jquery.min.js"/>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"/>
 </html>

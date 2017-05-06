@@ -1,0 +1,39 @@
+.pika {
+  height: 2em; }
+
+.content {
+  float: right; }
+
+.selections {
+  border: 1px solid black;
+  background-color: #9bbff4;
+  margin-top: 5%; }
+
+.attractions {
+  border: 1px solid black;
+  background-color: #9bbff4; }
+
+.menu-items {
+  padding: 5%; }
+
+.btn-exit {
+  background-color: #ff6666; }
+
+.days {
+  padding: 5%; }
+
+.header {
+  display: inline;
+  color: ghostwhite; }
+
+.dropbar {
+  width: 80%; }
+
+.content {
+  padding-top: 10px; }
+
+.navbar {
+  height: 3em; }
+
+.bucket {
+  padding-top: 4em; }
